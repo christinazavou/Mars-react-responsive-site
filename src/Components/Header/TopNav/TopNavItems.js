@@ -1,7 +1,7 @@
 import React from 'react'
 
 function TopNavItems({ showTopNavMenu }) {
-  const menuItems = [' The Red Planet', ' The Program', 'News & Events', 'Multimedia', ' Missions', 'More']
+  const menuItems = [' The Red Planet', ' The Program', 'News & Events', 'Multimedia', ' Missions']
   
   const navMenuItems = menuItems.map( (d,i) => {
     return (
